@@ -1,0 +1,132 @@
+body{ 
+    background-image: url("backg.jpeg");
+    background-size: cover; 
+    background-position: center;
+    color:whitesmoke;
+    font-family: 'Veranda', sans-serif;
+    font-size:20px;
+    text-align: center;
+    }
+
+header{
+        background-color: #4543b9;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px ;
+        width: 100%;
+        ;
+}
+.zodiac{
+    font-family: "Times New Roman" ;
+    font-size: 25px;
+    margin-left: 0px;
+}
+
+input[type=text]{
+    width: 60%;
+    padding: 5px 5%;
+    display: inline-block;
+    border: 2px solid black;
+}
+input[type=number]{
+    width: 60%;
+    padding: 5px 5%;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.names
+{
+    font-size: 30px;
+    text-shadow: 6px;
+    font-family: "NoirPro-Bold";
+    color: lightcoral;
+}
+
+.top
+{
+    font-size: 25px;
+    text-shadow: 6px;
+    font-family: "Script MT Bold";
+    color:white;
+}
+
+.box{
+    display: inline;
+    width: 30%;
+    text-align: center;
+    background: rgba(2,54,133, 0.411);
+    padding: 50px;
+    float: left;
+    margin: 80px;
+    border-radius: 40px;
+}
+.result{
+    display: inline;
+    width: 30%;
+    text-align: center;
+    background: rgba(221, 223, 224, 0.411);
+    padding: 20px;
+    float: right;
+    margin: 80px;
+    border-radius: 40px;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button{
+    transition-duration: 0.6s;
+    text-decoration: none;
+    width: auto;
+    padding: 10px 18px;
+    background-color: salmon;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: "NoirStd-Regular";
+}
+
+#your {
+    font-size: 30px;
+    font-family: "NoirStd-Regular";
+    margin: auto;
+    width: 60%;
+    color:white;
+    padding: 21px;
+    }
+
+#zodiacname {
+    text-align: center;
+    font-size: 40px;
+    font-family: "NoirPro-Bold";
+    margin: auto;
+    width: 60%;
+    color:navy;
+    padding: 21px;
+    }
+.pic{
+    float: right;
+    margin: 0px 200px 0px 0px;
+    padding: 0px;
+}
+
+footer{
+    text-align: left;
+    background: rgba(221, 223, 224, 0.411);
+    display: inline-block;
+    width: 100%;
+    font-family: "Times New Roman";
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+}
+
+
+
